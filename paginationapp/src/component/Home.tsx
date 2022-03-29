@@ -36,7 +36,7 @@ export default function Home(){
       useEffect(() => {
           setTimeout(() => {
             getData()
-          }, 1000);
+          }, 10000);
       },[count]);
 
     //   function useForceUpdate(){
